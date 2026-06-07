@@ -1,0 +1,16 @@
+.titulo {
+    max-width:1400px;
+
+    margin:auto;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:20px 40px;
+}
+
+.titulo h3 {
+    font-size:28px;
+    color:white;
+}

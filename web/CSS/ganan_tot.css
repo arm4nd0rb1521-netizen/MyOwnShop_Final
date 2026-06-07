@@ -1,0 +1,26 @@
+.ganancias{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:10px;
+}
+
+.ganancias label{
+    color:white;
+    font-weight:600;
+    font-size:22px;
+}
+
+.ganancias input{
+    width:250px;
+    padding:15px;
+    border:none;
+    border-radius:12px;
+
+    background:rgba(255,255,255,0.9);
+
+    text-align:center;
+
+    box-shadow:0 4px 10px rgba(0,0,0,0.2);
+}
+

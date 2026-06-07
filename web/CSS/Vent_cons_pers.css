@@ -1,0 +1,76 @@
+.ganancias{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:15px;
+}
+    
+.ganancias label{
+    color:white;
+    font-weight:600;
+    font-size:25px;
+}
+
+.ganancias input{
+    width:250px;
+    padding:15px;
+    border:none;
+    border-radius:12px;
+
+    background:rgba(255,255,255,0.9);
+
+    text-align:center;
+
+    box-shadow:0 4px 10px rgba(0,0,0,0.2);
+}
+
+.ganancias input:focus{
+
+    outline:none;
+
+    transform:scale(1.02);
+
+    
+}
+.ganancias input[type="button"]{
+
+    display:block;
+
+    width:370px;
+    height:60px;
+
+    margin:20px;
+
+    border:none;
+
+    border-radius:20px;
+
+    font-size:24px;
+    font-weight:bold;
+
+    cursor:pointer;
+
+    color:white;
+
+    background:rgba(255,255,255,0.15);
+
+    backdrop-filter:blur(15px);
+
+    box-shadow:
+        0 8px 20px rgba(0,0,0,0.25);
+
+    transition:0.3s;
+}
+
+.ganancias input[type="button"]:hover{
+
+    transform:
+        translateY(-5px)
+        scale(1.03);
+
+    background:rgba(255,255,255,0.25);
+
+    box-shadow:
+        0 12px 25px rgba(0,0,0,0.35);
+}
+
